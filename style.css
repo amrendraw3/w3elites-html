@@ -1,5 +1,3 @@
-/*w3 elite left section containing see portfolio button */
-
 .container-fluid .row .w3elitediv{
    height:75px;
    width:165px;
@@ -26,13 +24,13 @@
 
 .container-fluid .row #leftNavitem{
 	margin-left:-13px;
-	margin-top:80px;
+	margin-top:40px;
     list-style-type: none;
 
 }
 .navbar-nav .nav-link {
    
-    font-size: 1.1em;
+    font-size: 0.9em;
     color:#5b5b72
 }
 .container-fluid .row #leftNavitem .leftNavList{
@@ -81,10 +79,8 @@
     background-color:#07a7fa;
 }
 
-
-
-.content-margin{
-	margin-left:8px ;
+.container_margin{
+	margin-left:-15px ;
 	margin-right:-15px;
 }
 
@@ -92,8 +88,11 @@
     background-color:#000036;
   	
 }
-  	.navbar .navbar-nav .nav-link {
-    font-size: 1.1em;
+.sm-icons {
+  flex-direction: row;
+}
+.navbar .navbar-nav .nav-link {
+    font-size: 1em;
 }
 .navbar_one a{
 	color:#5b5b72;
@@ -106,35 +105,39 @@
 	padding-top:1rem;
 	padding-bottom:1rem;
 }
-.navbar_two a{
+.navbar_two #itlink{
 	color:white;
 }
-.navbar_two a:hover{
+.navbar_two #itlink:hover{
 	color:blue;
 }
 .phoneenvelopeicon{
-	font-size:19px;
+	font-size:21px;
 	color:white;
 }
 .facebooktwitterlinkdin{
 	font-size:16px;
 	color:white;
 }
+.envelope{
+	color:white;
+}
+/* download broucher button*/
 .navbar-btn{
 	 background-color:#07a7fa;
 	 height:3rem;
 	 border:none;
+	 margin-left:2rem;
+	 }
 
-	
-}
 /* image section */
 
 .backgroundImageMeeting{
 	position:relative;
 }
 .meetingImage{
-	height:35rem;
-	width:85rem;
+	max-width:100%;
+	height:auto;	
 }
 
 .imageinsideContent{
@@ -173,139 +176,126 @@
 	border:none;
 	width:160px;
 }
-.whyelitecontainer{	
-	margin-top:80px;
 
+/* second section */
 
+.aboutussection{
+	
+	padding-top: 5rem;
 }
 /*left section why w3elite */
-.whyelitecontainer .moreaboutus{
+.moreaboutus{
 	font-weight:bold;
 	font-size:14px;
 }
-.whyelitecontainer .aboutUs{
+ .aboutUs{
 	
 	font-size:15px;
 	font-weight: bold;
-	
 	color:#07a7fa;
 }
-.whyelitecontainer .whyw3elite{
+.whyw3elite{
 	font-weight:bold;
-   
+	font-style: poppins;
+	font-size: 47.01px;
 }
-.whyelitecontainer .horizonatlLinebelowh4{
+.horizonatlLinebelowh4{
 	width:100px;
 	margin-top:0px;
+	margin-left:0px;
 	background-color:#07a7fa;
-	
 	height:2px;
+
 }
 	/*border:1px solid black;*/
 
 /* right section containg paragraph */
-.whyelitecontainer .rightPara{
+
+.rightPara{
 	font-weight:bold;
-	
 	font-size: 16px;
-	width:400px;
+	
 }
- .whyelitecontainer .rightPara1{
-   font-size:16px;
-   
-   width:400px;
-   
-}
-.whyelitecontainer .rightPara2{
-   width:400px;
-   
-   font-size:16px;
-  
-}
-.teammeetingImage{
-	width:55rem;
-	height:auto;
-}
-/* our services section */
-.ourservices{
-	margin-top:40px;
+.parasection{
+	
+	padding-top:5rem;
+
 }
 
-.ourservices h6{
+ .rightPara1{
+   font-size:16px;
+   
+}
+.rightPara2{
+   font-size:16px;
+
+}
+/* our services section */
+
+.ourServiceHeading {
+	padding-top:40px;
 	font-weight: bold;
 	color:#07a7fa;
 }
-.ourservices h2{
+.headingMainService{
 	font-weight: bold;
 	
 }
-/* centre staffing column code start here */
-.staffingSection {
-	margin-top:60px;
+/* card section of it devlopment it staffing and recruitment */
+.staffingSection{
+   margin-top:60px;
+}    
 
-}
-.card{
-   border-bottom:solid;
-   border-bottom-color: #07a7fa
-   
-
-}
 /* code of top images in card */
-.staffingSection .cardImage{
-	margin-top:30px;
-    margin-right:auto;
+.cardImage{
+	margin-right:auto;
     margin-left:auto;
-    height:60px;
+    height:70px;
     width:70px;
 }
 
 /* code of headings present inside card */
-.staffingSection  .headingCard{
-	
+.headingCard{
 	font-size:20px;
 	font-weight: bold;
 }
 /* code of paragaraphs present inside card */
 /* code of image arrow present inside card */
-.long_arrow{
-	font-size:18px;  
-}
-/* code of lists present inside card */
-.staffingSection .listCard{
 
+/* code of lists present inside card */
+.listCard{
 	font-weight: bold;
 	list-style-type: none;
+	justify-content: center;
 
 }
 /* code for all three card div */
-.staffingSection  .itDevlopmentSection{
+ .itDevlopmentSection{
 	border:1px solid black;
     border-bottom: solid;
     border-bottom-color:#07a7fa;
     border-radius: 0px;
-     margin-bottom:50px;
+    margin-bottom:50px;
 
  }
-.staffingSection  .itStaffingSection{
+.itStaffingSection{
 	border:1px solid black;
-     border-radius: 0px;
     border-bottom:solid;
     border-bottom-color: #07a7fa;
-     margin-bottom:50px;
+    margin-bottom:50px;
 }
-.staffingSection  .recruitmentSection{	
+.recruitmentSection{	
     border:1px solid black;
     border-radius:0px;
     border-bottom:solid;
     border-bottom-color:#07a7fa;
-     margin-bottom:50px;
+    margin-bottom:50px;
 }
+
+
 /* slider dot section */
 
 
-
-.slider-dots{
-	margin-top:0px;
 	
 }
 .slider-dots{
@@ -313,7 +303,7 @@
 	align-items: center;
 	text-align: center;
 }
-.slider-dots .dot{
+ .dot{
 	height:12px;
 	width:12px;
 	background-color:grey;
@@ -322,7 +312,7 @@
 	margin-left:15px;
 	
 }
-.slider-dots .dots{
+ .dots{
 	height:12px;
 	width:12px;
 	background-color:#07A7FA;
@@ -330,9 +320,6 @@
 	display: inline-block;
 	margin-left:15px
 }
-
-
-
 
 /*our portfolio heading section*/
 
@@ -364,38 +351,31 @@
 	position: relative;
 	margin-left: 0px;
 }
+ /*our portfolio content section*/
+ .portarea{
+    margin-top: -200px;
+    background-image: url(images/Our-portfolio.png);
+    padding-top: 50px;
+    }
+ 
+   .portarea .portfoliocontainer .portrow .img1{
+     margin-top: 320px;
+     }
+ 
+   .portarea .portfoliocontainer .portrow .img2 {
+     margin-top: 170px;
+     }
+   .portarea .portfoliocontainer .portrow .img3{
+      margin-top: 40px;
+     }
+    .portarea .portfoliocontainer .portrow .img4{
+     margin-top: 10px;
+     }
+     .portarea .portfoliocontainer .portrow .img5{
+         margin-top: 40px;
+     }
 
-/*our portfolio content section*/
-
-.maincontainer{
-margin-top: -200px;
-background-image: url(images/Our-portfolio.png);
-padding-top: 50px;
-padding-top: 50px;
-
-}
-
-.maincontainer .smallimagerow .col1{
-	height:320px;
-	width:240px;
-}
-
-.maincontainer .smallimagerow .image1{
-	margin-top: 320px;
-	
-  }
-  .maincontainer .smallimagerow .image2{
-	  margin-top: 170px;
-  }
-  .maincontainer .smallimagerow .image3{
-	  margin-top: 40px;
-  }
-  .maincontainer .smallimagerow .image4{
-	  margin-top: 10px;
-  }
-  .maincontainer .smallimagerow .image5{
-	  margin-top: 40px;
-  }
+ 
 
 /*team heading section*/
 .team{
@@ -413,60 +393,66 @@ padding-top: 50px;
     font-weight: bold;
 }
 
-/*team content section */
-.teamarea .teamcontainer .teamrow .img1 .box{
-	background-color: white;
-	height:100px;
-	width:150px;
-	position: absolute;
-	text-align: center;
-	padding-top:20px ;
-	border-bottom:2px solid #07A7FA ;
-	margin-left: 50px;
-	margin-top: -40px;
-}
-.teamarea .teamcontainer .teamrow .img2 .box{
-	background-color: white;
-	height:100px;
-	width:160px;
-	position: absolute;
-	text-align: center;
-	padding-top:20px ;
-	border-bottom:2px solid #07A7FA ;
-	margin-left: 50px;
-	margin-top: -40px;
-    
-}
-.teamarea .teamcontainer .teamrow .img3 .box{
-	background-color: white;
-	height:100px;
-	width:150px;
-	position: absolute;
-	text-align: center;
-	padding-top:20px ;
-	border-bottom:2px solid #07A7FA ;
-	margin-left: 50px;
-	margin-top: -40px;
-}
-
+  /*team content section */
 .teamarea .teamcontainer .teamrow .img1{
-    justify-content: center;
-}	
-.teamarea .teamcontainer .teamrow .img1{
-	position: relative;
-	margin-top: 30px;
-	
+	text-align: center;
 }
 .teamarea .teamcontainer .teamrow .img2{
-	position: relative;
-	margin-top:42px
-}
-
+  text-align: center;
+ }
 .teamarea .teamcontainer .teamrow .img3{
-	position: relative;
-	margin-top: 75px;
-   
-}
+  text-align: center;
+ }
+ .teamarea .teamcontainer .teamrow .img1 .details{
+  position: relative;
+  background-color: white;
+  max-height: fit-content;
+  border-bottom:2px solid #07A7FA ;
+  margin-top: -40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  }
+
+ .teamarea .teamcontainer .teamrow .img2 .details{
+  position: relative;
+  background-color: white;
+  max-height: fit-content;
+  border-bottom:2px solid #07A7FA ;
+  margin-top: -40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  }
+  .teamarea .teamcontainer .teamrow .img2 .details .social .facebook{
+	  color: #1A0DAB;
+	  margin-left: 1px;
+	  margin-right: 1px;
+  }
+  .teamarea .teamcontainer .teamrow .img2 .details .social .twitter{
+	  color: #07A7FA;
+	  margin-left: 1px;
+	  margin-right: 1px;
+  }
+  .teamarea .teamcontainer .teamrow .img2 .details .social .youtube{
+	  color: red;
+	  margin-left: 1px;
+	  margin-right: 1px;
+  }
+  .teamarea .teamcontainer .teamrow .img2 .details .social .instagram{
+	  color: brown;
+	  margin-left: 1px;
+	  margin-right: 1px;
+  }
+  .teamarea .teamcontainer .teamrow .img3 .details{
+  position: relative;
+  background-color: white;
+  max-height: fit-content;
+  border-bottom:2px solid #07A7FA ;
+  margin-top: -40px;
+  margin-left: 30px;
+  margin-right: 30px;
+   }    
+ 
+
 /*slider dot*/
 .slider-dot{
 	margin-top:100px;
@@ -493,8 +479,6 @@ padding-top: 50px;
 	display: inline-block;
 	margin-left:15px
 }
-
-
 
 /*testimonial heading*/
 .testimonial{
@@ -543,33 +527,34 @@ padding-top: 50px;
    
 
 }
-
 /*testimonial slider dot*/
 .testimonial-slider-dot{
-	margin-top:50px;
+    margin-top:50px;
 }
 .testimonial-slider-dot{
-	align-content: center;
-	align-items: center;
-	text-align: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 .testimonial-slider-dot .dot{
-	height:12px;
-	width:12px;
-	background-color:grey;
-	border-radius: 50%;
-	display: inline-block;
-	margin-left:15px;
-	
+    height:12px;
+    width:12px;
+    background-color:grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:15px;
+    
 }
 .testimonial-slider-dot .dots{
-	height:12px;
-	width:12px;
-	background-color:#07A7FA;
-	border-radius: 50%;
-	display: inline-block;
-	margin-left:15px
+    height:12px;
+    width:12px;
+    background-color:#07A7FA;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:15px
 }
+
+
 
 /*hipster image*/
 .hipster-images .small-image .rows {
@@ -583,8 +568,7 @@ padding-top: 50px;
 	.hipster-images .small-image .rows .col{
 		margin-right: 0px;
 	}
-
-/*above the footer blog area*/
+ /*above the footer blog area*/
 .blog{
     background-color:#F3F8FB ;
     padding-top: 40px;
@@ -610,6 +594,7 @@ padding-top: 50px;
 	height:2px;
 	margin-left: 0px;
 }
+
 
 /* footer*/
 .footer{
@@ -689,44 +674,25 @@ padding-top: 50px;
 
 
 
-/* displaying left and right section contaning navbar and w3elite in mobile view and tablet*/
-
-@media screen and (max-width: 768px) {
-   	 .mobilerow { display: flex; flex-flow: column; }
-    .rightgridsection { order: 1; }
-    .leftgridsection{ order: 2; }
-    
-}
-
-
-
-
 
 /* media queries start here */
-@media (max-width: 992px){
-
+ 
 	
-/* second navbar */
-	.navbar_two{
-    padding:0px;
-    padding-left:1rem;
-
-    }
-    .meetingImage{
-	height:250px;
+@media only screen and (max-width: 764px) {
 	
-}
-	.container-fluid.backgroundImageMeeting{
-	position:relative;
-	border:1px solid black;
-
+	.meetingImage{
+	  height:230px;
+	  width:100%;
 	}
-	
+	.mobilerow { display: flex; flex-flow: column; }
+     .rightgridsection { order: 1; }
+     .leftgridsection{ order: 2; }
+
 	.container-fluid .backgroundImageMeeting .imageinsideContent{
 	position:absolute;
 	top:15%;
 	width:300px;
-      font-size:10px;
+    font-size:10px;
     font-weight: bold;
       
 	}
@@ -757,64 +723,225 @@ padding-top: 50px;
 	border:none;
 	width:80px;
 	}
-/* why w3 elite section*/
+	.phoneenvelopeiconlink{
+    	font-size:0.8vw;
+    }
+	.phoneenvelopeicon{
+	font-size:3.1vw;
+	color:white;
+	}
+	.facebooktwitterlinkdin{
+	font-size:3.4vw;
+	color:white;
+	padding-left: 1vw;
+	}
+	.navbar-btn{
+	 background-color:#07a7fa;
+	 height:8vw;
+	 border:none;
+	 width:35vw;
+	 font-size:2.7vw;
+	 margin-left:-2vw;
+
+	}
+	.navbar_two{
+    padding:0px;
+    padding-left:1rem;
+	 }
+}
+/* media query for ipad view */
+
+  @media screen and (max-width: 990px) and (min-width:766px) {
 	
-	.container{	
-	margin-top:80px;
+	.container-fluid .backgroundImageMeeting .imageinsideContent{
+	position:absolute;
+	top:15%;
+	width:300px;
+    font-size:10px;
+    font-weight: bold;
+      
+	}
+	.ITheading{
+	font-size:20px;
+	width:250px;
+	}
+	.horizontalLine{
+	background-color:white;
+	height:2px;
+	width:70%;
+	margin-left:0px;
+	}
+	.imagePara{
+	font-size: 12px;
+	width:78%;
+	font-weight:normal;
+	color:white;
+	}
+/* meeting button code */
+	.imageinsideContent button{
+	margin-top:-10px;
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+	font-size: 10px;
+	height:22px;
+	border:none;
+	width:80px;
 	}
 
 
-	.container .row .aboutUs{
-	
-	font-size:15px;
-	font-weight: bold;
-
-	color:#07a7fa;
+  	.container-fluid .row .w3elitediv{
+   height:5vw;
+   width:13vw;
+   background-color: #07a7fa;
+   margin-left:1vw;
+   margin-top:1vw;
+   text-align:center;
 	}
-	.container .row  .whyw3elite{
-	font-weight: bold;
+	.container-fluid .row .w3eliteHeading{
+	font-weight:bold;
+	color:white;
+	font-size:2vw;
+	padding-top:1.2vw;
+	}
+	.container-fluid .row .portfolioButton{
+	margin-left:5px;
+	margin-top:35px;
+	height:70px;
+    width:160px;
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    background-color:#07a7fa;
+	}
 
+	.container-fluid .row #leftNavitem{
+	margin-left:-3vw;
+	margin-top:1vw;
+    list-style-type: none;
+
+	}
+	.navbar-nav .nav-link {
    
+    font-size: 0.9vw;
+    color:#5b5b72
+	}
+	.container-fluid .row #leftNavitem .leftNavList{
+    font-size:1.2vw;
+    color:black;
+    padding-top:0vw;	
+	}
+/* code for making blue bullets*/
+	.leftNavList::before{
+  content: "\2022";
+  color: #07a7fa;
+  font-weight: bold;
+  display:inline-block; 
+  width:1em;
+  margin-left: -1em;
+  font-size:150%;
+	}
+/* left Section List below w3 elite button code*/
+	.container-fluid .row #leftNavitem .nav_item{
+	color:black;
+}
+/* code for clintele and portfolio heading*/
+	.container-fluid .row  .clintele-portfolio-heading{
+	margin-top:-1vw;
+	margin-left:1vw;
+    font-size:1.7vw;
+    font-weight: bold;
+    color:#07a7fa;
+	}
+	.clientele-portfolio-para{
+	margin-left:1vw;
+	font-size:0.9vw;
+	justify-content: space-around; 
+	
+	width:16vw;
 	}
 
-	} 
-	
-@media only screen and (max-width: 600px) {
-	.meetingImage{
-	height:250px;
-}
-.staffingSection  .itDevlopmentSection{
-	border:1px solid black;
-    border-bottom: solid;
-    border-bottom-color:#07a7fa;
-    border-radius: 0px;
-     margin-bottom:50px;
-     width:400px;
- }
-.staffingSection  .itStaffingSection{
-	border:1px solid black;
-     border-radius: 0px;
-    border-bottom:solid;
-    border-bottom-color: #07a7fa;
-     margin-bottom:50px;
-     width:400px;
-}
-.staffingSection  .recruitmentSection{	
-    border:1px solid black;
-    border-radius:0px;
-    border-bottom:solid;
-    border-bottom-color:#07a7fa;
-     margin-bottom:50px;
-     width:400px;
-}
+	.container-fluid .row .portfolioButton{
+    border:none;
+	margin-top:-1vw;
+	height:4vw;
+    width:14vw;
+    font-size:1.5vw;
+    font-weight: bold;
+    color: white;
+    background-color:#07a7fa;
+	}
 
-.listCard{
-	margin-left:80px;
-}
-}
+	.navbar_one{
+    background-color:#000036;
+  	height:2.5vw;
+	}
+	.sm-icons {
+  	display: none;
+	}
+	.navbar .navbar-nav .nav-link {
+    font-size: 1vw;
+	}
+	.navbar_one a{
+	color:#5b5b72;
+	
+	}
+	.navbar_two{
+	background-color:#021a2e;
+	}
+	.navbar_two ul{
+	padding-top:1rem;
+	padding-bottom:1rem;
+	}
+	.navbar_two a{
+	color:white;
+	}
+	.navbar_two a:hover{
+	color:blue;
+	}
+	.phoneenvelopeicon{
+	font-size:19px;
+	color:white;
+	}
+	.facebooktwitterlinkdin{
+	font-size:16px;
+	color:white;
+	}
+	.navbar-btn{
+	 background-color:#07a7fa;
+	 height:3rem;
+	 border:none;
+	}
+ .container-fluid .backgroundImageMeeting .imageinsideContent{
+	position:absolute;
+	top:15%;
+	width:300px;
+    font-size:10px;
+    font-weight: bold;
+      
+	}
+	.navbar_two{
+    padding:0px;
+    padding-left:1rem;
+
+    }
+    .phoneenvelopeiconlink{
+    	font-size:0.8vw;
+    }
+	.phoneenvelopeicon{
+	font-size:1vw;
+	color:white;
+	}
+	.facebooktwitterlinkdin{
+	font-size:1vw;
+	color:white;
+	}
+	.navbar-btn{
+	 background-color:#07a7fa;
+	 height:4vw;
+	 border:none;
+	}
 
 
   
-
-
-
+}
