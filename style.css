@@ -31,7 +31,7 @@
 .navbar-nav .nav-link {
    
     font-size: 0.9em;
-    color:#5b5b72
+    color:#5b5b72;
 }
 .container-fluid .row #leftNavitem .leftNavList{
     font-size:14px;
@@ -295,9 +295,6 @@
 
 /* slider dot section */
 
-
-	
-}
 .slider-dots{
 	align-content: center;
 	align-items: center;
@@ -893,12 +890,13 @@
 	padding-top:1rem;
 	padding-bottom:1rem;
 	}
-	.navbar_two a{
+	.navbar_two #itlink{
 	color:white;
+	font-size: 1.2vw;
 	}
-	.navbar_two a:hover{
+	.navbar_two #itlink:hover{
 	color:blue;
-	}
+}
 	.phoneenvelopeicon{
 	font-size:19px;
 	color:white;
@@ -909,7 +907,7 @@
 	}
 	.navbar-btn{
 	 background-color:#07a7fa;
-	 height:3rem;
+	 
 	 border:none;
 	}
  .container-fluid .backgroundImageMeeting .imageinsideContent{
@@ -939,8 +937,23 @@
 	.navbar-btn{
 	 background-color:#07a7fa;
 	 height:4vw;
+	 width:14vw;
+	 font-size: 1vw;
+	 margin-left:1vw;
 	 border:none;
 	}
+	.phoneenvelopeicon{
+	font-size:1.1vw;
+	color:white;
+}
+	.facebooktwitterlinkdin{
+	font-size:1.1vw;
+	color:white;
+}
+	.envelope{
+	color:white;
+	font-size: 1.1vw;
+}
 
 
   
